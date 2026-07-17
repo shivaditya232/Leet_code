@@ -1,3 +1,4 @@
+#include<string>
 
 bool pali(string &clean,int l,int r){
     
