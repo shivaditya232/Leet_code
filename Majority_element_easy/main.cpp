@@ -1,3 +1,5 @@
+#include<vector>
+#include<iostream>
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
