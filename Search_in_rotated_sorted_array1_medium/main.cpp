@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    vector<int> nums={5,1,3};
+    vector<int> nums={2,1};
     vector<int> list={6,1,2,3,4,5};
     vector<int> list2={1,2,3,4,5,6};
     int low=0;
@@ -11,7 +11,8 @@ int main(){
     while(low<=high){
         int mid=(low+high)/2;
         if(nums[low]>nums[mid]){
-            high=mid-1;
+            high=mid;
+            
         }
         else if(nums[high]<nums[mid]){
             low=mid+1;
