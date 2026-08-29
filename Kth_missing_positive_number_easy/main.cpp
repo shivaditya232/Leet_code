@@ -18,6 +18,6 @@ int main(){
             low=mid-1;
         }
     }
-    return k-(arr[high]-(high+1))+arr[high];
+    return k+high+1;
     return 0;
 }
