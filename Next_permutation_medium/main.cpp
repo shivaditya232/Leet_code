@@ -3,7 +3,7 @@ public:
     void nextPermutation(vector<int>& nums) {
         int n = nums.size();
         
-        // Step 1: find the break point (from the right)
+        
         int ind = -1;
         for(int i = n-2; i >= 0; i--){
             if(nums[i] < nums[i+1]){
